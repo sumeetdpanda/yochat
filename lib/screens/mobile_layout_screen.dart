@@ -16,7 +16,7 @@ class MobileScreenLayout extends StatelessWidget {
           title: const Text(
             'YoChat',
             style: TextStyle(
-              color: Colors.grey,
+              color: greyColor,
               fontSize: 20,
               fontWeight: FontWeight.bold,
             ),
@@ -27,14 +27,14 @@ class MobileScreenLayout extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(
                 Icons.search,
-                color: Colors.grey,
+                color: greyColor,
               ),
             ),
             IconButton(
               onPressed: () {},
               icon: const Icon(
                 Icons.more_vert,
-                color: Colors.grey,
+                color: greyColor,
               ),
             ),
           ],
@@ -42,7 +42,7 @@ class MobileScreenLayout extends StatelessWidget {
             indicatorColor: tabColor,
             indicatorWeight: 4,
             labelColor: tabColor,
-            unselectedLabelColor: Colors.grey,
+            unselectedLabelColor: greyColor,
             labelStyle: TextStyle(
               fontWeight: FontWeight.bold,
             ),

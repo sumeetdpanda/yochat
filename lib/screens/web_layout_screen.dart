@@ -55,14 +55,14 @@ class WebScreenLayout extends StatelessWidget {
                         onPressed: () {},
                         icon: const Icon(
                           Icons.emoji_emotions_outlined,
-                          color: Colors.grey,
+                          color: greyColor,
                         ),
                       ),
                       IconButton(
                         onPressed: () {},
                         icon: const Icon(
                           Icons.attach_file,
-                          color: Colors.grey,
+                          color: greyColor,
                         ),
                       ),
                       Expanded(
@@ -89,7 +89,7 @@ class WebScreenLayout extends StatelessWidget {
                         onPressed: () {},
                         icon: const Icon(
                           Icons.mic,
-                          color: Colors.grey,
+                          color: greyColor,
                         ),
                       ),
                     ],

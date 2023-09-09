@@ -37,14 +37,14 @@ class WebChatAppBar extends StatelessWidget {
                 onPressed: () {},
                 icon: const Icon(
                   Icons.search,
-                  color: Colors.grey,
+                  color: greyColor,
                 ),
               ),
               IconButton(
                 onPressed: () {},
                 icon: const Icon(
                   Icons.more_vert,
-                  color: Colors.grey,
+                  color: greyColor,
                 ),
               ),
             ],
